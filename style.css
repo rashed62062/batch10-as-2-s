@@ -3,59 +3,63 @@
 
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .texts {
-  color: rgba(200, 28, 28, 0.5);
+    color: rgba(200, 28, 28, 0.5);
 }
 
 /* shared style */
 .display-flex {
-  display: flex;
+    display: flex;
+}
+.dark{
+     color: rgba(255, 255, 255, 0.5);
+     font-size: 14px;
 }
 
 .banner-text {
-  color: rgba(239, 237, 232, 0.65);
+    color: rgba(239, 237, 232, 0.65);
 }
 
 .text-gray {
-  color: #E6533C;
+    color: #E6533C;
 }
 
 .text-light-gray {
-  color: #4f2424;
+    color:#FFFFFF;
 }
 
 .text-bg {
-  background-color: #E6533C;
+    background-color:#E6533C;
 }
 
 .bg-light {
-  background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 /* Header style */
 
 /* navbar related style */
 .navbar {
-  justify-content: space-between;
+    justify-content: space-between;
 
 }
 
 .nav-item {
-  list-style: none;
-  margin-right: 47px;
+    list-style: none;
+    margin-right: 47px;
 
 
 }
 
 .nav-link {
-  text-decoration: none;
-  font-weight: 400;
+    text-decoration: none;
+    font-weight:400;
 
 }
 
@@ -63,87 +67,161 @@
 
 .navbar,
 .banner {
-  max-width: 1440px;
-  margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
 
 }
 
 .brand {
-  font-weight: 800;
-  font-size: 2.1rem;
-  margin-top: 10px;
+    font-weight: 800;
+    font-size: 2.1rem;
+    margin-top: 10px;
 }
 
 .banner {
-  display: flex;
-  flex-direction: row;
-  gap: 167px;
+    display: flex;
+    flex-direction: row;
+    gap:167px;
+    margin-left: 50px;
 }
 
 .banner-title {
-  font-weight: 400;
-  font-size: 78px;
+    font-weight: 400;
+    font-size: 40px;
 }
 
 .banner-img {
-  margin-left: 100px;
+    margin-left: 100px;
 }
 
 .btn-primary {
-  color: white;
-  padding: 20px 20px;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 42px;
-  border: none;
-  gap: 5px;
-  margin-right: 5px;
+    color: white;
+    padding: 20px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    gap:5px;
+    margin-right: 5px;
 }
 
-.container  {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
 
- 
+
 }
 
 .container img {
-  width: 349px;
-  height: 580px;
+    width: 349px;
+    height: 580px;
 }
 
 .container .btns {
-  position: absolute;
-  top: 70%;
-  left: -2rem;
-  width: 140px;
-  height: 80px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
-  border: none;
+    position: absolute;
+    top: 70%;
+    left: -2rem;
+    width: 140px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    border: none;
 }
 
 
 
 
-#container{
-  position: relative;
-  width: 100%;
-  max-width: 400px;
+#container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
 
 
 }
+
 #container .btns {
-  position: absolute;
-  top: 500%;
-  left: 200%;
-  width: 140px;
-  height: 80px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
-  border: none;
-  margin-top: 150px;
-  margin-left: 40px;
+    position:absolute;
+    top: 500%;
+    left: 200%;
+    width: 140px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    border: none;
+    margin-top: 150px;
+    margin-left: 40px;
 }
+.change_habit{
+     max-width:1440px;
+     /* margin: 0 auto; */
+     height:4650px;
+     background-color:black;
+}
+.change_habit, .habit_titale{
+    text-align:center;
+    padding-top: 1rem;
+
+      
+}
+.change_habit,> h1{
+    
+}
+
+.changge_img{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 73px;
+    
+}
+.changge_img  img{
+    border-radius: 50%;
+}
+
+#run_extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 1060px;
+    height:371px;
+   margin-left: 7rem;
+   gap: 40px;
+}
+.image-section {
+
+    margin: 20px 20px 20px;
+    
+}
+
+.image-section img {
+    border-radius: 10px;
+}
+
+
+ 
+.button {
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    Width:224px;
+    height:54px;
+
+
+}
+.text-section{
+    text-align: start;
+}
+
+
 
