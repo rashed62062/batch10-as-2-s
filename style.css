@@ -189,11 +189,14 @@
     max-width: 1060px;
     height:371px;
    margin-left: 7rem;
-   gap: 40px;
+   gap: 3rem;
 }
 .image-section {
 
-    margin: 20px 20px 20px;
+    /* margin: 20px 20px 20px; */
+
+    margin: 30px 30px 30px;
+
     
 }
 
@@ -221,7 +224,32 @@
 }
 .text-section{
     text-align: start;
+   
+}
+.bmi_text h1{
+    display: inline-block;
+    background-color: orange;
+    text-align: ;
+    
 }
 
-
+ .mbi_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    width: 1352px;
+    height:487px;
+   
+ }
+ .mbi_table{
+    width: 100%;
+ }
+ 
+ .mbi_table > tr,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+ 
 
