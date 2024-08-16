@@ -2,6 +2,19 @@
 
 
 
+
+
+.dancing {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+ body {
+    background-color: #1a1a1a;
+} 
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -9,11 +22,23 @@
     font-style: normal;
 }
 
+.na_imges{
+    width: 1440px; 
+    height:663px;
+    background:rgb(17, 17, 17)
+    rgba(119, 119, 119, 0); 
+
+}
+
 .texts {
     color: rgba(200, 28, 28, 0.5);
 }
 
 /* shared style */
+ .darkboy{
+    color: rgba(255, 255, 255, 0.5);
+ }
+
 .display-flex {
     display: flex;
 }
@@ -63,9 +88,16 @@
 
 }
 
-.nav-links {}
+.nav-links {  
+    border: 1px solid;
+    padding-top:15px;
+    padding-left: 10px;
+    border-radius: 40px;
+    
+}
 
 .navbar,
+
 .banner {
     max-width: 1440px;
     margin: 0 auto;
@@ -83,6 +115,7 @@
     flex-direction: row;
     gap:167px;
     margin-left: 50px;
+    text-align: center;
 }
 
 .banner-title {
@@ -91,7 +124,7 @@
 }
 
 .banner-img {
-    margin-left: 100px;
+    margin-left: 1rem;
 }
 
 .btn-primary {
@@ -116,6 +149,7 @@
 .container img {
     width: 349px;
     height: 580px;
+    padding-left:;
 }
 
 .container .btns {
@@ -149,15 +183,27 @@
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
     border: none;
-    margin-top: 150px;
-    margin-left: 40px;
+    margin-top:  160px;
+    margin-left: 115px;
 }
-.change_habit{
+ /* .change_habit{
      max-width:1440px;
      /* margin: 0 auto; */
-     height:4650px;
+     /* height:4650px; */
      background-color:black;
-}
+}  */
+/* .main_header{
+    max-width:1440px;
+    height:4650px;
+    background-color:black;
+} */
+ .main_header{
+    max-width: 1140px;
+    height: 4650px;
+    background-color: black;
+ }
+
+
 .change_habit, .habit_titale{
     text-align:center;
     padding-top: 1rem;
@@ -184,12 +230,13 @@
     flex-direction: row;
     justify-content: center;
     background-color: #1e1e1e;
+    text-align: center
     border-radius: 8px;
     overflow: hidden;
     max-width: 1060px;
     height:371px;
-   margin-left: 7rem;
-   gap: 3rem;
+   margin-left: 15rem;
+   gap:3rem;
 }
 .image-section {
 
@@ -243,13 +290,342 @@
     height:487px;
    
  }
- .mbi_table{
+
+
+
+  /* mbi start */
+  
+.bmi_header {
+    max-width: 0 auto;
     width: 100%;
- }
- 
- .mbi_table > tr,th,td{
-    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header p {
+    font-size: 1em;
+    color: #b3b3b3;
+    margin-top: 10px;
+}
+
+.bmi_header{
+   padding-top: 40px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #333333;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.bmi-chart, .bmi-calculator {
+    width: 48%;
+}
+
+.bmi-chart h2, .bmi-calculator h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bmi-chart table {
+    padding-top: 10px;
+    width: 100%;
+    border: 1px solid white;
     border-collapse: collapse;
 }
- 
 
+.bmi-chart th, .bmi-chart td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #555555;
+    color: #ffffff;
+}
+
+.bmi-chart th {
+    background-color: #444444;
+}
+
+.bmi-calculator form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bmi-calculator input, .bmi-calculator select {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.bmi-calculator button {
+    padding: 15px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.2em;
+   
+}
+  /* bmi end */
+
+  /* met section  start*/
+  .team-container {
+    padding: 5px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header p {
+    font-size: 1em;
+    color: #b3b3b3;
+    margin-top: 10px;
+}
+
+.team {
+    
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+    
+}
+
+
+.team-member {
+     /* width: 250px; 
+     height: 550px; */
+    /* padding: 20px; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    height: 272px;
+    width: 326px;
+    /* border-radius: 10px;
+    margin-bottom: -40px;
+    background-color: red */
+    
+
+}
+
+/* .team-member h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px; */
+}
+
+  /* met section end */
+
+/* footer css */
+
+.footer {
+    background-color: #333333;
+    padding: 40px;
+    color: #b3b3b3;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+    color: #ff5722;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    color: #b3b3b3;
+    font-size: 1em;
+}
+
+.footer-links h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ff5722;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+
+
+
+/* Base Styles */
+/* Already provided styles remain the same */
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar,
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        margin-left: 0;
+        gap: 50px;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    #container .btns,
+    .container .btns {
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .changge_img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #run_extra {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .text-section {
+        text-align: center;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand {
+        font-size: 1.5rem;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .btn-primary {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .team {
+        grid-template-columns: 1fr;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links ul {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-primary {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    .changge_img {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #run_extra {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links ul {
+        text-align: center;
+        padding: 0;
+    }
+}
